@@ -33,7 +33,7 @@ host_name = "DRCOMFUCKER"
 host_os = "WINDIAOS"
 host_ip = "172.28.27.191" # your ip, the server wouldn't check this, so it's a nonsense 
 dhcp_server = "172.28.27.1"
-mac = 0x你的mac地址
+mac = 0x20cf305061b9 #your mac address
 
 def log(*args, **kwargs):
     s = ' '.join(args)
