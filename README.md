@@ -25,6 +25,12 @@
 
 >不做祥述，有兴趣的同学可以自行完成配置。
 
+####Example image
+
+![eg1](https://raw.githubusercontent.com/iamfanweiya/henau-drcom/master/eg1.jpg)
+![eg2](https://raw.githubusercontent.com/iamfanweiya/henau-drcom/master/eg2.jpg)
+![eg3](https://raw.githubusercontent.com/iamfanweiya/henau-drcom/master/eg3.jpg)
+
 ## 感谢
 
 >[drcom-generic](https://github.com/drcoms/drcom-generic)，openwrt，shadowsockes,redsockes2,ChinaDNS等项目
