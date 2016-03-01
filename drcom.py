@@ -27,19 +27,17 @@ EXCEPTION = False
 DEBUG = True
 # basic configuration
 server = "10.0.108.3" # Auth server ip
-username = "学号"
-password = "密码"
-host_name = "DRCOMFUCKER"
-host_os = "WINDIAOS"
-host_ip = "172.28.27.191" # your ip, the server wouldn't check this, so it's a nonsense 
+username = "xxxxxxxx" #your school id. exp:1210003424
+password = "xxxxx" #your password
+host_name = "WINDOWS 7"
+host_os = "WINDOWS"
+host_ip = "172.28.27.127" # your ip, the server wouldn't check this, so it's a nonsense 
 dhcp_server = "172.28.27.1"
-mac = 0x20cf305061b9 #your mac address
+mac = 0x20cf305061b9
 
 def log(*args, **kwargs):
     s = ' '.join(args)
     print s
-    with open('drcom_client.log','a') as f:
-        f.write(s + '\n')
 
 def challenge(svr,ran):
     while True:
@@ -93,7 +91,7 @@ def keep_alive_package_builder(number,random,tail,type=1,first=False):
     if type == 3:
       foo = ''.join([chr(int(i)) for i in host_ip.split('.')]) # host_ip
       #CRC
-      # edited on 2014/5/12, filled zeros to checksum
+      # edited on 2015/2/19, filled zeros to checksum
       # crc = packet_CRC(data+foo)
       crc = '\x00' * 4
       #data += struct.pack("!I",crc) + foo + '\x00' * 8
