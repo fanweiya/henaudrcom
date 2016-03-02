@@ -1,5 +1,7 @@
 # henau-drcom
 
+[![Join the chat at https://gitter.im/fanweiya/henaudrcom](https://badges.gitter.im/fanweiya/henaudrcom.svg)](https://gitter.im/fanweiya/henaudrcom?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 
 **heau-drcom**是一款专为henau打造的openwrt编译版本，内置henau-drcom认证,简单几步可实现henau校园网自动认证。
  
