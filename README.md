@@ -20,6 +20,7 @@
 >http://jingyan.baidu.com/article/647f0115b3d5897f2148a83e.html
 
 ### 配置drcom
+>wifi热点名称为FAN-2.4G及FAN-5G,openwrt后台及wifi初始密码为admin123，如有需要请自行修改。
 
 >使用**WinSCP**连接路由进入`/usr/bin/drcom.py`填入自己的上网账号,密码保存。
 
