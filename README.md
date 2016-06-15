@@ -38,9 +38,6 @@
 
 >[drcom-generic](https://github.com/drcoms/drcom-generic)，openwrt，shadowsockes,redsockes2,ChinaDNS等项目
 
-## 反馈与建议
-
-- 博客：[BLOG](http://fanweiya.cn)
 
 ## 许可证
 
