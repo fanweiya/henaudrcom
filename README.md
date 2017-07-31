@@ -37,9 +37,3 @@
 ## 感谢
 
 >[drcom-generic](https://github.com/drcoms/drcom-generic)，openwrt，shadowsockes,redsockes2,ChinaDNS等项目
-
-
-## 许可证
-
-AGPLv3
-特别指出禁止任何个人或者公司将代码投入商业使用，由此造成的后果和法律责任均与本人无关。
